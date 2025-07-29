@@ -14,16 +14,16 @@
            <header>World Clock</header>
             <select name="city" id="city">
                 <option value="" disabled selected hidden >Select a city..</option>
-                <option value="my-local-city">My current city</option>
-                <option value="beijing">Beijing</option>
-                <option value="bangkok">Bangkok</option>
-                <option value="chengdu">Chengdu</option>
-                <option value="chicago">Chicago</option>
-                <option value="new-york">New York</option>
-                <option value="paris">Paris</option>
-                <option value="shangshai">Shangshai</option>
+                <option value="local-city">Local city</option>
+                <option value="Beijing">Beijing</option>
+                <option value="Bangkok">Bangkok</option>
+                <option value="Chengdu">Chengdu</option>
+                <option value="Chicago">Chicago</option>
+                <option value="New York">New York</option>
+                <option value="Paris">Paris</option>
+                <option value="Shangshai">Shangshai</option>
             </select>
-            <div class="cities">
+            <div class="cities hidden">
                 <div class="city-content">
                     <div class="city-element">
                         <div class="my-current-city">Johannesburg</div>
@@ -92,16 +92,18 @@
             <div class="city-content">
                 <div class="city-element">
                     <div class="city-name">Shangshai</div>
-                    <div class="city-time">19:34</div>
+                    <div class="city-time">19:34:<span class="seconds">07</span> PM</div>
                 </div>
-                <div class="city-date">20:07:2025</div>
+                <div class="city-date">20 July 2025</div>
             </div>
 
             
             <a href="#" id="all-cities">All Cities</a>
         </div>
     </main>
-    <footer>This project was coded by Andiswa Dlamini</footer>
+    <footer>This project was coded by Andiswa Dlamini and is open-sourced on
+        <a href="">GitHub</a>
+    </footer>
     <script src="src/script.js"></script>
 </body>
 </html>
