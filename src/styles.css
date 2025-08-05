@@ -26,15 +26,13 @@ header {
     
 }
 
-.cities {
-    
-}
+
 
 .hidden {
     display: none;
 }
 
-.city-content{
+.city-content, .single-city-content{
     background: #fff;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -44,7 +42,7 @@ header {
     border-bottom: 1px solid black;
 }
 
-.city-element {
+.city-element, .single-city-element {
     display: flex;
     padding: 0.5rem;
     justify-content: space-between;
@@ -57,9 +55,7 @@ header {
     margin-left: 7px;
 }
 
-.period {
-    font-size: 15px;
-}
+
 
 footer {
     position: fixed;
